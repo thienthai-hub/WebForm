@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Winter.Master.cs" Inherits="WinterShop.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="~/Css/style-winter.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container">
+            <div class="wrap-nav-top flexbox">
+                <div class="text-logo">
+                    Winter
+                </div>
+                <ul class="item-nav-top flexbox">
+                    <li class="list-nav-top"><a runat="server" href="~/Home.aspx">Home</a></li>
+                    <li class="list-nav-top"><a runat="server" href="~/Shop.aspx">Shop</a></li>
+                    <li class="list-nav-top"><a runat="server" href="~/Pages.aspx">Page</a></li>
+                    <li class="list-nav-top"><a runat="server" href="~/Blog.aspx">Blog</a></li>
+                    <li class="list-nav-top"><a runat="server" href="~/Contact.aspx">Contact</a></li>
+                </ul>
+                <div>
+                    <img src="https://img.icons8.com/windows/32/000000/shirt.png"></div>
+            </div>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

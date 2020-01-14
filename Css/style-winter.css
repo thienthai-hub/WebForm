@@ -1,0 +1,58 @@
+﻿ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.container {
+    width: 80%;
+    margin: 0 auto; 
+}
+
+.flexbox {
+    display: flex;
+}
+
+.wrap-nav-top {
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.wrap-nav-top .text-logo {
+    text-transform: uppercase;
+    color: cornflowerblue;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.wrap-nav-top .item-nav-top .list-nav-top:not(:first-child) {
+    margin-left: 40px;
+}   
+.wrap-nav-top .item-nav-top .list-nav-top {
+    font-size: 18px
+}
+.wrap-login {
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    padding: 50px;
+    width: 27%;
+}
+.wrap-login .login-text, .wrap-login .password-text {
+    margin-bottom: 20px;
+    display: flex;
+}
+.wrap-login  .text {
+    font-size: 14px;
+    margin-right: 10px
+}
+.wrap-login .input-text {
+    flex: 1;
+}
+.btn-login {
+    margin: 0 auto
+}

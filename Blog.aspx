@@ -9,7 +9,7 @@
         </div> 
         <div class="password-text">
             <asp:Label ID="Label2" runat="server" Text="Passworld" CssClass="text"></asp:Label>
-            <asp:TextBox ID="lgPassworld" runat="server" TextMode="Password" Width="233px"  CssClass="input-text"></asp:TextBox>
+            <asp:TextBox ID="lgPassworld" runat="server" TextMode="Password" Width="233px"  CssClass="input-text">ddd</asp:TextBox>
         </div>
         <div class="btn-login">
             <asp:Button ID="lgBtn" runat="server" CausesValidation="False" OnClick="lgBtn_Click" Text="Send" Width="158px" />

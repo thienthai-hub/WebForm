@@ -54,3 +54,5 @@ C:\Users\oanht\source\repos\WinterShop\WinterShop\obj\Debug\WinterShop.csproj.Co
 C:\Users\oanht\source\repos\WinterShop\WinterShop\obj\Debug\WinterShop.csproj.CopyComplete
 C:\Users\oanht\source\repos\WinterShop\WinterShop\obj\Debug\WinterShop.dll
 C:\Users\oanht\source\repos\WinterShop\WinterShop\obj\Debug\WinterShop.pdb
+C:\Users\ThienThai\Source\Repos\WebForm\obj\Debug\WinterShop.dll
+C:\Users\ThienThai\Source\Repos\WebForm\obj\Debug\WinterShop.pdb
